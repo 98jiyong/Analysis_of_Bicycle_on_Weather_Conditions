@@ -53,7 +53,7 @@
 <tr><td align='center'>데이터 전처리, 표준화, 상관관계 분석 (EDA도구 활용)</td></tr>
 <tr><td align='center'>예측모델 선정 및 학습</td></tr>
 <tr><td align='center'>MSE, R-Squared 등 평가지표를 활용한 모델 성능 평가</td></tr>
-<tr><td align='center'>웹 API 및 프로토타입 구충</td></tr>
+<tr><td align='center'>웹 API 및 프로토타입 구축</td></tr>
 <tr><td align='center'>예측모델 시각화 및 웹기반 시스템 구축</td></tr>
 <tr><td align='center'>테스트</td></tr>
 </table>
