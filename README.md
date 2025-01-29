@@ -52,27 +52,33 @@
 <table>
 <tr><th colspan="2">과제 구분</th><th>내용</th></tr>
 <tr><td rowspan="7">AI</td><td rowspan="7" align='center'>AI기반 공공자전거 수요분석, <br>예측모델 구현 및 시각화</td><td align='center'>원시 데이터 수집 및 데이터셋 구축</td></tr>
-<tr><td align='center'>데이터 전처리, 표준화, 상관관계 분석(EDA도구 활용)</td></tr>
+<tr><td align='center'>데이터 전처리, 표준화, 상관관계 분석 (EDA도구 활용)</td></tr>
 <tr><td align='center'>예측모델 선정 및 학습</td></tr>
 <tr><td align='center'>MSE, R-Squared 등 평가지표를 활용한 모델 성능 평가</td></tr>
 <tr><td align='center'>웹 API 및 프로토타입 구충</td></tr>
 <tr><td align='center'>예측모델 시각화 및 웹기반 시스템 구축</td></tr>
 <tr><td align='center'>테스트</td></tr>
 </table>
-</div>
+</div><br>
 
 [📌 목차로 이동](#-목차)
 <br><br>
 
 ## 📖 사용 라이브러리
-|구분|기능|설명|
-|:---:|:---:|:---:|
-|S/W|테스트|개별 모듈 설계 후 정상작동 단위테스트 진행|
-|S/W|회로도 제작|모델에 대한 회로도 및 설계도 제작(Fritzing)|
-|S/W|프로그램 개발|C++ 언어를 활용해 프로그램 스케치 및 업로드|
-|H/W|3D모델링|모듈 간 연결을 위한 3D모델링(Tinkercad)|
-|H/W|모델 어셈블리|제작한 회로도를 기반으로 모듈 및 3D모델 조립|
-|H/W|하우징 제작|모델 케이스 제작|
+|라이브러리|모델|기능|설명|
+|:---:|:---:|:---:|:---:|
+|numpy|-|데이터 수치 계산|데이터의 수치적 연산을 효율적으로 수행|
+|pandas|-|데이터 조작 및 분석|데이터 읽기, 쓰기, 필터링, 그룹화 등의 작업을 지원|
+|sklearn|train_test_split|머신러닝|데이터를 훈련 세트와 테스트 세트로 나누는 함수|
+|sklearn|r2_score|머신러닝|결정 계수(R²)를 계산하는 함수|
+|sklearn|mean_squared_error|머신러닝|평균 제곱 오차(MSE)를 계산하는 함수|
+|sklearn|StandardScaler|머신러닝|데이터의 평균을 0, 표준편차를 1로 변환하여 표준화하는 클래스|
+|sklearn|LinearRegression|머신러닝|선형 회귀 모델을 구현하는 클래스|
+|sklearn|RandomForestClassifier|머신러닝|랜덤 포레스트 분류 모델을 구현하는 클래스|
+|sklearn|RandomForestRegressor|머신러닝|랜덤 포레스트 회귀 모델을 구현하는 클래스|
+|xgboost|XGBRegressor|회쉬 및 분류|XGBoost를 기반으로 한 회귀 모델|
+|matplotlib|-|데이터 시각화|다양한 유형의 그래프 제공|
+|seaborn|-|Matplotlib기반 시각화 라이브러리|통계적 그래프 시각화 지원|
 <br>
 
 [📌 목차로 이동](#-목차)
