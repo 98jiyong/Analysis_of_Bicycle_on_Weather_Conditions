@@ -48,8 +48,8 @@
 <br><br>
 
 ## 🗂️ 프로젝트 범위
-<div>
-<table style="text-align: center;">
+<div style="text-align: center;">
+<table>
 <tr><th colspan="2">과제 구분</th><th>내용</th></tr>
 <tr><td rowspan="7">AI</td><td rowspan="7">AI기반 공공자전거 수요분석, <br>예측모델 구현 및 시각화</td><td>원시 데이터 수집 및 데이터셋 구축</td></tr>
 <tr><td>데이터 전처리, 표준화, 상관관계 분석(EDA도구 활용)</td></tr>
