@@ -48,11 +48,11 @@
 <br><br>
 
 ## 🗂️ 프로젝트 범위
-<div align='center'>
-<table>
-<th>
-<td>과제 구분</td><td>내용</td>
-</th>
+<div>
+<table text-align='center'>
+<tr>
+<th colspan="2">과제 구분</th><th>내용</th>
+</tr>
 <tr>
 <td rowspan="7">AI</td><td rowspan="7">AI기반 공공자전거 수요분석, <br>예측모델 구현 및 시각화</td><td>원시 데이터 수집 및 데이터셋 구축</td>
 </tr>
