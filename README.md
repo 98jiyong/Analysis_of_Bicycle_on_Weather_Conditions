@@ -49,43 +49,17 @@
 
 ## 🗂️ 프로젝트 범위
 <div>
-<table text-align='center'>
-<tr>
-<th colspan="2">과제 구분</th><th>내용</th>
-</tr>
-<tr>
-<td rowspan="7">AI</td><td rowspan="7">AI기반 공공자전거 수요분석, <br>예측모델 구현 및 시각화</td><td>원시 데이터 수집 및 데이터셋 구축</td>
-</tr>
-<tr>
-<td>데이터 전처리, 표준화, 상관관계 분석(EDA도구 활용)</td>
-</tr>
-<tr>
-<td>예측모델 선정 및 학습</td>
-</tr>
-<tr>
-<td>MSE, R-Squared 등 평가지표를 활용한 모델 성능 평가</td>
-</tr>
-<tr>
-<td>웹 API 및 프로토타입 구충</td>
-</tr>
-<tr>
-<td>예측모델 시각화 및 웹기반 시스템 구축</td>
-</tr>
-<tr>
-<td>테스트</td>
-</tr>
+<table style="text-align: center;">
+<tr><th colspan="2">과제 구분</th><th>내용</th></tr>
+<tr><td rowspan="7">AI</td><td rowspan="7">AI기반 공공자전거 수요분석, <br>예측모델 구현 및 시각화</td><td>원시 데이터 수집 및 데이터셋 구축</td></tr>
+<tr><td>데이터 전처리, 표준화, 상관관계 분석(EDA도구 활용)</td></tr>
+<tr><td>예측모델 선정 및 학습</td></tr>
+<tr><td>MSE, R-Squared 등 평가지표를 활용한 모델 성능 평가</td></tr>
+<tr><td>웹 API 및 프로토타입 구충</td></tr>
+<tr><td>예측모델 시각화 및 웹기반 시스템 구축</td></tr>
+<tr><td>테스트</td></tr>
 </table>
 </div>
-
-
-|구분|기능|설명|
-|:---:|:---:|:---:|
-||테스트|개별 모듈 설계 후 정상작동 단위테스트 진행|
-||회로도 제작|모델에 대한 회로도 및 설계도 제작(Fritzing)|
-|S/W|프로그램 개발|C++ 언어를 활용해 프로그램 스케치 및 업로드|
-||3D모델링|모듈 간 연결을 위한 3D모델링(Tinkercad)|
-||모델 어셈블리|제작한 회로도를 기반으로 모듈 및 3D모델 조립|
-||하우징 제작|모델 케이스 제작|
 
 [📌 목차로 이동](#-목차)
 <br><br>
