@@ -130,24 +130,74 @@
     <li>
       데이터 상관관계(Heatmap)
     </li><br>
-    <img src="https://github.com/user-attachments/assets/83748058-4db5-4099-b0de-cfedcd2d1416" align='center' width="400" alt="히트맵"><br><br>
+    <img src="https://github.com/user-attachments/assets/83748058-4db5-4099-b0de-cfedcd2d1416" width="400" alt="히트맵"><br>
+    <li>
+      탐색적 데이터 분석
+    </li>
+    <ul>
+      <li>
+        결측치 및 중복값 통계
+      </li><br>
+      <img src="https://github.com/user-attachments/assets/fffa7e15-d5b1-407a-a0b8-653b064bb634" alt="결측치"><br><br>
+      <li>
+        주요 변수별 데이터 분포(Histogram)
+      </li><br>
+      <img src="https://github.com/user-attachments/assets/7f1327cc-4eb1-4e50-8856-543e1203ff8d" alt="분포도"><br><br>
+      <li>
+        데이터 전처리
+      </li><br>
+      <img src="https://github.com/user-attachments/assets/d8bb8085-fcdd-4dfa-b922-99d0044749f3" alt="분포도"><br>
+    </ul>
   </ol>
 </details>
 <details>
   <summary><b>3. 데이터 학습 및 모델정의 </b> (👈 Click)</summary>
   <br>
-  <li>
-    학습한 대상이 인식되지 않거나 화면 밖으로 나갈 시 비활성화
-  </li>
-  <img src="https://github.com/user-attachments/assets/7e6e5fec-42bb-49c5-9581-f18c8df62f9f" height="400" alt="통합테스트3"><br><br>
+  <ol>
+    <li>예측 모델 선정</li>
+    <ul>
+      <li>결정계수 비교 : Ensemble 기법 중 하나인 XGBoost 모델 채택</li><br>
+      <img src="https://github.com/user-attachments/assets/97b29c7c-8c93-4029-bd20-979bc6023a9b" alt="모델 선정">
+    </ul>
+    <li>모델 학습 및 시각화</li>
+    <ul>
+      <li>모델 학습</li><br>
+      <img src="https://github.com/user-attachments/assets/c964e95e-fabd-4fab-af88-94468cb5cee4" alt="모델 학습"><br><br>
+      <li>학습과정 시각화</li><br>
+      <img src="https://github.com/user-attachments/assets/fdfa1423-93c2-4f1b-87e9-cfa683cb59c4" alt="모델 시각화"><br>
+    </ul>
+    <li>모델 예측</li>
+    <ul>
+      <li>예측값 vs 실제값 비교</li><br>
+      <ul>
+        <li>선 그래프 비교</li><br>
+        <img src="https://github.com/user-attachments/assets/40662084-42f6-4e33-b72d-55dbb349ac7a" alt="선 그래프"><br><br>
+        <li>산점도 분석</li><br>
+        <img src="https://github.com/user-attachments/assets/3754e41b-4c30-4133-a514-149e82f98918" alt="산점도"><br><br>
+        <li>잔차 분석</li><br>
+        <img src="https://github.com/user-attachments/assets/c7cf2f15-b69d-424b-a46d-49bc50297f94" alt="잔차"><br><br>
+      </ul>
+    </ul>
+  </ol>
+  
+  <br>
 </details>
 <details>
   <summary><b>4. 프로토타이핑(화면) </b> (👈 Click)</summary>
   <br>
-  <li>
-    학습한 대상이 인식되지 않거나 화면 밖으로 나갈 시 비활성화
-  </li>
-  <img src="https://github.com/user-attachments/assets/7e6e5fec-42bb-49c5-9581-f18c8df62f9f" height="400" alt="통합테스트3"><br><br>
+  <ol>
+  <li>모델 예측</li>
+    <ul>
+      <li>기상요인에 따른 공공자전거 이용건수 예측</li><br>
+      <img src="https://github.com/user-attachments/assets/e0f4c19b-54a0-4452-a4ec-691b4443678f" alt="모델 예측"><br><br>
+    </ul>
+  <li>예측 결과</li>
+    <ul>
+      <li>기상요인에 따른 공공자전거 이용건수 예측</li><br>
+      <img src="https://github.com/user-attachments/assets/75bf3c39-3b04-46cc-ae68-db4c27836cf4" alt="예측 자료"><br>
+      <img src="https://github.com/user-attachments/assets/ab3156f7-e734-4f08-b18b-a8988d037e64" alt="예측 결과"><br>
+    </ul>
+  </ol>
 </details>
 <br>
 
