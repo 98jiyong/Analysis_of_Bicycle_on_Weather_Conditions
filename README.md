@@ -68,14 +68,14 @@
 |라이브러리|모델|기능|설명|
 |:---:|:---:|:---:|:---:|
 |numpy|-|데이터 수치 계산|데이터의 수치적 연산을 효율적으로 수행|
-|pandas|-|데이터 조작 및 분석|데이터 읽기, 쓰기, 필터링, 그룹화 등의 작업을 지원|
-|sklearn|train_test_split|머신러닝|데이터를 훈련 세트와 테스트 세트로 나누는 함수|
-|sklearn|r2_score|머신러닝|결정 계수(R²)를 계산하는 함수|
-|sklearn|mean_squared_error|머신러닝|평균 제곱 오차(MSE)를 계산하는 함수|
-|sklearn|StandardScaler|머신러닝|데이터의 평균을 0, 표준편차를 1로 변환하여 표준화하는 클래스|
-|sklearn|LinearRegression|머신러닝|선형 회귀 모델을 구현하는 클래스|
-|sklearn|RandomForestClassifier|머신러닝|랜덤 포레스트 분류 모델을 구현하는 클래스|
-|sklearn|RandomForestRegressor|머신러닝|랜덤 포레스트 회귀 모델을 구현하는 클래스|
+|pandas|-|데이터 조작 및 분석|데이터 읽기, 쓰기, 필터링, 그룹화 등을 지원|
+|sklearn|train_test_split|머신러닝|데이터를 훈련 세트와 테스트 세트로 분류|
+|sklearn|r2_score|머신러닝|결정 계수(R²)를 계산|
+|sklearn|mean_squared_error|머신러닝|평균 제곱 오차(MSE)를 계산|
+|sklearn|StandardScaler|머신러닝|데이터를 표준화|
+|sklearn|LinearRegression|머신러닝|선형 회귀 모델을 구현하|
+|sklearn|RandomForestClassifier|머신러닝|랜덤 포레스트 분류 모델을 구현|
+|sklearn|RandomForestRegressor|머신러닝|랜덤 포레스트 회귀 모델을 구현|
 |xgboost|XGBRegressor|회쉬 및 분류|XGBoost를 기반으로 한 회귀 모델|
 |matplotlib|-|데이터 시각화|다양한 유형의 그래프 제공|
 |seaborn|-|Matplotlib기반 시각화 라이브러리|통계적 그래프 시각화 지원|
